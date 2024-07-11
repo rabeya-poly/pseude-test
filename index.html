@@ -1,51 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+/<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pseudo</title>
+    <title>Document</title>
     <style>
-        h3
-        {
-            color:red;
+        .box{
+position: relative;
         }
-        /*hover means mouse over*/
-        h3:hover{
-            color: blue;
-            background-color: darkcyan;
+        .ring{
+            top: -70px;
+           z-index: 5;
+
+
         }
-        input:focus{
-            color: brown;
-            /*padding-left: 20px;*/
-            outline: 0px;
-            border: 2px solid yellow;
+        .boy{
+            z-index: 10;
         }
-        a:visited{
-            color: rgb(139, 93, 0);
-        }
-        li:last-child{
-            color: aqua;
-        }
-        li:first-child{
-            color: darkgreen;
-        }
+.water{
+    top: -150px;
+}
     </style>
 </head>
 <body>
-    <h3>Pseudo</h3>
-    <input type="text">
-    <input type="text">
-    <input type="text">
-    <a href="https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en">facebook</a>
-    <br>
-    <a href="https://www.google.co.uk/">google</a>
-    <a href="https://www.fda.gov/">fda</a>
-<ul>
-    <li>AJA</li>
-    <li>BLJA</li>
-    <li>CIHJA</li>
-    <li>DWEJA</li>
-</ul>
-    
+    <h3> Z index</h3>
+<div class="swim-container">
+    <div class="box boy" >
+        <img src="swim/boy.svg" alt="" srcset="">
+    </div>
+<div class="box ring">
+    <img src="swim/ring.svg" alt="" srcset="">
+</div>
+<div class="box water">
+    <img src="swim/water.svg" alt="" srcset="">
+</div></div>
+
 </body>
 </html>
